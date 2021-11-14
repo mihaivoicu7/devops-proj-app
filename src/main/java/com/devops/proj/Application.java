@@ -1,19 +1,17 @@
-package com.adina;
+package com.devops.proj;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.annotation.PreDestroy;
 
 @SpringBootApplication
 @Configuration
-public class AdinaApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(AdinaApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
     @PreDestroy
